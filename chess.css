@@ -28,6 +28,7 @@ li {
     place-items: center;
     font-size: 0px;
 }
+/* font-size is zero so that the name of the pieces do not show on the pieces themselves */
 
 .box {
     margin: .5px;
