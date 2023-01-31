@@ -7,98 +7,93 @@
     <link rel="stylesheet" href="chess.css">
 
     <title>Chess</title>
+
 </head>
+
 <body>
-    <h1>Chess</h1>
-    <h2 id="tog">White's Turn</h2>
 
+    <div class="chessBoard">
 
-    <ul>
-        <!-- black pieces -->
-        <div class="divv" id="row8">
-            <li class="box" id="b801">Brook</li>
-            <li class="box" id="b802">Bknight</li>
-            <li class="box" id="b803">Bbishop</li>
-            <li class="box" id="b804">Bqueen</li>
-            <li class="box" id="b805">Bking</li>
-            <li class="box" id="b806">Bbishop</li>
-            <li class="box" id="b807">Bknight</li>
-            <li class="box" id="b808">Brook</li>
-        </div>
-        <div class="divv" id="row7">
-            <li class="box" id="b701">Bpawn</li>
-            <li class="box" id="b702">Bpawn</li>
-            <li class="box" id="b703">Bpawn</li>
-            <li class="box" id="b704">Bpawn</li>
-            <li class="box" id="b705">Bpawn</li>
-            <li class="box" id="b706">Bpawn</li>
-            <li class="box" id="b707">Bpawn</li>
-            <li class="box" id="b708">Bpawn</li>
-        </div>
-        <!-- black squares for the checkered board -->
-        <div class="divv" id="row6">
-            <li class="box" id="b701"></li>
-            <li class="box" id="b702"></li>
-            <li class="box" id="b703"></li>
-            <li class="box" id="b704"></li>
-            <li class="box" id="b705"></li>
-            <li class="box" id="b706"></li>
-            <li class="box" id="b707"></li>
-            <li class="box" id="b708"></li>
-        </div>
-        <div class="divv" id="row5">
-            <li class="box" id="b701"></li>
-            <li class="box" id="b702"></li>
-            <li class="box" id="b703"></li>
-            <li class="box" id="b704"></li>
-            <li class="box" id="b705"></li>
-            <li class="box" id="b706"></li>
-            <li class="box" id="b707"></li>
-            <li class="box" id="b708"></li>
-        </div>
-        <div class="divv" id="row4">
-            <li class="box" id="b701"></li>
-            <li class="box" id="b702"></li>
-            <li class="box" id="b703"></li>
-            <li class="box" id="b704"></li>
-            <li class="box" id="b705"></li>
-            <li class="box" id="b706"></li>
-            <li class="box" id="b707"></li>
-            <li class="box" id="b708"></li>
-        </div>
-        <div class="divv" id="row3">
-            <li class="box" id="b701"></li>
-            <li class="box" id="b702"></li>
-            <li class="box" id="b703"></li>
-            <li class="box" id="b704"></li>
-            <li class="box" id="b705"></li>
-            <li class="box" id="b706"></li>
-            <li class="box" id="b707"></li>
-            <li class="box" id="b708"></li>
-        </div>
-        <!-- white pieces -->
-        <div class="divv" id="row2">
-            <li class="box" id="b701">Wpawn</li>
-            <li class="box" id="b702">Wpawn</li>
-            <li class="box" id="b703">Wpawn</li>
-            <li class="box" id="b704">Wpawn</li>
-            <li class="box" id="b705">Wpawn</li>
-            <li class="box" id="b706">Wpawn</li>
-            <li class="box" id="b707">Wpawn</li>
-            <li class="box" id="b708">Wpawn</li>
-        </div>
-        <div class="divv" id="row1">
-            <li class="box" id="b801">Wrook</li>
-            <li class="box" id="b802">Wknight</li>
-            <li class="box" id="b803">Wbishop</li>
-            <li class="box" id="b804">Wqueen</li>
-            <li class="box" id="b805">Wking</li>
-            <li class="box" id="b806">Wbishop</li>
-            <li class="box" id="b807">Wknight</li>
-            <li class="box" id="b808">Wrook</li>
-        </div>
+        <div id="a8" class="piece-box white-box"></div>
+        <div id="b8" class="piece-box black-box"></div>
+        <div id="c8" class="piece-box white-box"></div>
+        <div id="d8" class="piece-box black-box"></div>
+        <div id="e8" class="piece-box white-box"></div>
+        <div id="f8" class="piece-box black-box"></div>
+        <div id="g8" class="piece-box white-box"></div>
+        <div id="h8" class="piece-box black-box"></div>
+        
+        <div id="a7" class="piece-box black-box"></div>
+        <div id="b7" class="piece-box white-box"></div>
+        <div id="c7" class="piece-box black-box"></div>
+        <div id="d7" class="piece-box white-box"></div>
+        <div id="e7" class="piece-box black-box"></div>
+        <div id="f7" class="piece-box white-box"></div>
+        <div id="g7" class="piece-box black-box"></div>
+        <div id="h7" class="piece-box white-box"></div>
 
-    </ul>
+        <div id="a6" class="piece-box white-box"></div>
+        <div id="b6" class="piece-box black-box"></div>
+        <div id="c6" class="piece-box white-box"></div>
+        <div id="d6" class="piece-box black-box"></div>
+        <div id="e6" class="piece-box white-box"></div>
+        <div id="f6" class="piece-box black-box"></div>
+        <div id="g6" class="piece-box white-box"></div>
+        <div id="h6" class="piece-box black-box"></div>
+        
+        <div id="a5" class="piece-box black-box"></div>
+        <div id="b5" class="piece-box white-box"></div>
+        <div id="c5" class="piece-box black-box"></div>
+        <div id="d5" class="piece-box white-box"></div>
+        <div id="e5" class="piece-box black-box"></div>
+        <div id="f5" class="piece-box white-box"></div>
+        <div id="g5" class="piece-box black-box"></div>
+        <div id="h5" class="piece-box white-box"></div>
+        
+        <div id="a4" class="piece-box white-box"></div>
+        <div id="b4" class="piece-box black-box"></div>
+        <div id="c4" class="piece-box white-box"></div>
+        <div id="d4" class="piece-box black-box"></div>
+        <div id="e4" class="piece-box white-box"></div>
+        <div id="f4" class="piece-box black-box"></div>
+        <div id="g4" class="piece-box white-box"></div>
+        <div id="h4" class="piece-box black-box"></div>
+
+        <div id="a3" class="piece-box black-box"></div>
+        <div id="b3" class="piece-box white-box"></div>
+        <div id="c3" class="piece-box black-box"></div>
+        <div id="d3" class="piece-box white-box"></div>
+        <div id="e3" class="piece-box black-box"></div>
+        <div id="f3" class="piece-box white-box"></div>
+        <div id="g3" class="piece-box black-box"></div>
+        <div id="h3" class="piece-box white-box"></div>
+
+        <div id="a2" class="piece-box white-box"></div>
+        <div id="b2" class="piece-box black-box"></div>
+        <div id="c2" class="piece-box white-box"></div>
+        <div id="d2" class="piece-box black-box"></div>
+        <div id="e2" class="piece-box white-box"></div>
+        <div id="f2" class="piece-box black-box"></div>
+        <div id="g2" class="piece-box white-box"></div>
+        <div id="h2" class="piece-box black-box"></div>
+
+        <div id="a1" class="piece-box black-box"></div>
+        <div id="b1" class="piece-box white-box"></div>
+        <div id="c1" class="piece-box black-box"></div>
+        <div id="d1" class="piece-box white-box"></div>
+        <div id="e1" class="piece-box black-box"></div>
+        <div id="f1" class="piece-box white-box"></div>
+        <div id="g1" class="piece-box black-box"></div>
+        <div id="h1" class="piece-box white-box"></div>
+
+    </div>
+
+    <div class="chessMessage">
+
+        <div class="blackWins check-mate-message fade-in">Black Wins</div>
+        <div class="whiteWins check-mate-message fade-in">White Wins</div>
+
+    </div>
 
     <script src ="chess.js"></script>
     
